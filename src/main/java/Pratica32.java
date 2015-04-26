@@ -12,7 +12,7 @@
  */
 public class Pratica32 {
     public static double densidade(double x, double media,double desvio){
-        double d = (1/Math.sqrt(2*Math.PI*desvio))*Math.pow(Math.E,(-1/2)*Math.pow(((x-media)/desvio),2));
+        double d = (1/Math.sqrt(2*Math.PI)*desvio)*Math.pow(Math.E,(-0.5)*Math.pow(((x-media)/desvio),2));
         return d;
     }
     
